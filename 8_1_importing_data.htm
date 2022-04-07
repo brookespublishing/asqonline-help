@@ -1,0 +1,212 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html><head><title>8.1 Importing Data - ASQ Online</title><link href="AppStyles.css" type="text/css" rel="stylesheet"/><link href="pagestyles.css" type="text/css" rel="stylesheet"/><link href="style_blue.css" type="text/css" rel="stylesheet"/><link href="TableLayoutCss.css" type="text/css" rel="stylesheet"/><script type="text/javascript" src="static_page.js"></script><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache"><META HTTP-EQUIV="Pragma" CONTENT="no-cache"><meta http-equiv="expires" content="FRI, 13 APR 1999 01:00:00 GMT"><META name="ROBOTS" content="NOINDEX, NOFOLLOW, NOARCHIVE"></head><body onload="HighlightSearchText();HighlightPage('49');" class="page_body"><p><span class="breadcrumbs"><a href="Welcome.htm" title="">Home</a>&nbsp;&gt;&nbsp;<a href="Basic_Functions.htm" title="">Account Administrator User Manual</a>&nbsp;&gt;&nbsp;<a href="8_import_export.htm" title="">8 Import</a>&nbsp;&gt;&nbsp;<a href="8_1_importing_data.htm" title="">8.1 Importing Data</a></span></p>
+<p><span class="heading">8.1 Importing Data</span></p>
+<p><span style="font-size: 12pt; line-height: 115%; font-family: tahoma;">In this section, you will
+learn how to use Data Templates provided by ASQ Online to gather and format the
+data necessary for import. The Data Templates are in a comma separated value
+(CSV) format which can be opened in Microsoft Excel or Notepad. The Data
+Templates contain all of the fields necessary to import child, caregiver,
+and/or screening data.<br />
+<br />
+<strong>8.1.1 Data Templates<br />
+<br />
+</strong>There are 11 Data Templates available within ASQ Online. The table below
+provides the name of the Data Template, a brief description, the data that is
+included in the template, and additional notes.<br />
+</span><br />
+<table style="border-collapse: collapse; border: medium none;" cellspacing="0" cellpadding="0" border="1">
+    <tbody>
+        <tr>
+            <td style="width: 119.7pt; border: 1pt solid #4bacc6; padding: 0in 5.4pt;" valign="top">
+            <p><span style="color: #0c0c0c;"><strong><span style="font-size: 10pt; font-family: arial,sans-serif;">Data Template</span></strong></span></p>
+            </td>
+            <td style="width: 119.7pt; border-width: 1pt 1pt 1pt medium; border-style: solid solid solid none; border-image-source: none; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; padding: 0in 5.4pt;" valign="top">
+            <p><span style="color: #0c0c0c;"><strong><span style="font-size: 10pt; font-family: arial,sans-serif;">Description</span></strong></span></p>
+            </td>
+            <td style="width: 119.7pt; border-width: 1pt 1pt 1pt medium; border-style: solid solid solid none; border-image-source: none; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; padding: 0in 5.4pt;" valign="top">
+            <p><span style="color: #0c0c0c;"><strong><span style="font-size: 10pt; font-family: arial,sans-serif;">Data Included</span></strong></span></p>
+            </td>
+            <td style="width: 119.7pt; border-width: 1pt 1pt 1pt medium; border-style: solid solid solid none; border-image-source: none; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; padding: 0in 5.4pt;" valign="top">
+            <p><span style="color: #0c0c0c;"><strong><span style="font-size: 10pt; font-family: arial,sans-serif;">Notes</span></strong></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 119.7pt; border-width: medium 1pt 1pt; border-style: none solid solid; border-image-source: none; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; padding: 0in 5.4pt;" valign="top">
+            <p><span style="color: #0c0c0c;"><em><span style="font-size: 10pt; font-family: arial,sans-serif;">Child and Caregiver Profile Data Template</span></em></span></p>
+            </td>
+            <td style="width: 119.7pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; padding: 0in 5.4pt;" valign="top">
+            <p><span style="font-size: 10pt; font-family: arial,sans-serif; color: #0c0c0c;">Template to import one or more Child Profiles with a linked Caregiver Profile. </span></p>
+            </td>
+            <td style="width: 119.7pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; padding: 0in 5.4pt;" valign="top">
+            <p><span style="font-size: 10pt; font-family: arial,sans-serif; color: #0c0c0c;">All Child Profile and Caregiver Profile fields (demographics), including any custom fields created by the Pro/Enterprise Account Administrator.</span></p>
+            </td>
+            <td style="width: 119.7pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; padding: 0in 5.4pt;" valign="top">
+            <p><span style="font-size: 10pt; font-family: arial,sans-serif; color: #0c0c0c;">A Caregiver Profile is not required. If no Caregiver Profile is included in the import file, the system will only import the Child Profile data.</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 119.7pt; border-width: medium 1pt 1pt; border-style: none solid solid; border-image-source: none; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; padding: 0in 5.4pt;" valign="top">
+            <p style="margin: 5pt 0in;"><span style="color: #0c0c0c;"><em><span style="font-size: 10pt; font-family: arial,sans-serif;">Caregiver Profile Data Only Template</span></em></span></p>
+            <p><span style="color: #0c0c0c;"><strong><em><span style="font-size: 10pt; font-family: arial,sans-serif;">&nbsp;</span></em></strong></span></p>
+            </td>
+            <td style="width: 119.7pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; padding: 0in 5.4pt;" valign="top">
+            <p><span style="font-size: 10pt; font-family: arial,sans-serif; color: #0c0c0c;">Template to import Caregiver Profile information only.</span></p>
+            </td>
+            <td style="width: 119.7pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; padding: 0in 5.4pt;" valign="top">
+            <p><span style="font-size: 10pt; font-family: arial,sans-serif; color: #0c0c0c;">Includes all Caregiver Profile fields (demographics), and any custom fields created by the Pro/Enterprise Account Administrator.</span></p>
+            </td>
+            <td style="width: 119.7pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; padding: 0in 5.4pt;" valign="top">
+            <p><span style="font-size: 10pt; font-family: arial,sans-serif; color: #0c0c0c;">Use this template to import additional Caregiver Profiles for a child record.</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 119.7pt; border-width: medium 1pt 1pt; border-style: none solid solid; border-image-source: none; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; padding: 0in 5.4pt;" valign="top">
+            <p><span style="color: #0c0c0c;"><em><span style="font-size: 10pt; font-family: arial,sans-serif;">ASQ-3 Template</span></em></span></p>
+            </td>
+            <td style="width: 119.7pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; padding: 0in 5.4pt;" valign="top">
+            <p><span style="font-size: 10pt; font-family: arial,sans-serif; color: #0c0c0c;">Template to import ASQ-3 questionnaire (English or Spanish) to either an existing or new Child Profile.</span></p>
+            </td>
+            <td style="width: 119.7pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; padding: 0in 5.4pt;" valign="top">
+            <p><span style="font-size: 10pt; font-family: arial,sans-serif; color: #0c0c0c;">Includes child, caregiver, and screening data.</span></p>
+            </td>
+            <td style="width: 119.7pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; padding: 0in 5.4pt;" valign="top">
+            <p><span style="font-size: 10pt; font-family: arial,sans-serif; color: #0c0c0c;">Use this template to import child, caregiver, and questionnaire data for ASQ-3.</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 119.7pt; border-width: medium 1pt 1pt; border-style: none solid solid; border-image-source: none; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; padding: 0in 5.4pt;" valign="top">
+            <p><span style="color: #0c0c0c;"><em><span style="font-size: 10pt; font-family: arial,sans-serif;">ASQ:SE-2 2 month Data Template</span></em></span></p>
+            <p><span style="color: #0c0c0c;"><em><span style="font-size: 10pt; font-family: arial,sans-serif;">ASQ:SE-2 6 month Data Template</span></em></span></p>
+            <p><span style="color: #0c0c0c;"><em><span style="font-size: 10pt; font-family: arial,sans-serif;">ASQ:SE-2 12 month Data Template</span></em></span></p>
+            <p><span style="color: #0c0c0c;"><em><span style="font-size: 10pt; font-family: arial,sans-serif;">ASQ:SE-2 18 month Data Template</span></em></span></p>
+            <p><span style="color: #0c0c0c;"><em><span style="font-size: 10pt; font-family: arial,sans-serif;">ASQ:SE-2 24 month Data Template</span></em></span></p>
+            <p><span style="color: #0c0c0c;"><em><span style="font-size: 10pt; font-family: arial,sans-serif;">ASQ:SE-2 30 month Data Template</span></em></span></p>
+            <p><span style="color: #0c0c0c;"><em><span style="font-size: 10pt; font-family: arial,sans-serif;">ASQ:SE-2 36 month Data Template</span></em></span></p>
+            <p><span style="color: #0c0c0c;"><em><span style="font-size: 10pt; font-family: arial,sans-serif;">ASQ:SE-2 48 month Data Template</span></em></span></p>
+            <p><span style="color: #0c0c0c;"><em><span style="font-size: 10pt; font-family: arial,sans-serif;">ASQ:SE-2 60 month Data Template</span></em></span></p>
+            <p><span style="color: #0c0c0c;"><em><span style="font-size: 10pt; font-family: arial,sans-serif;">&nbsp;</span></em></span></p>
+            </td>
+            <td style="width: 119.7pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; padding: 0in 5.4pt;" valign="top">
+            <p><span style="font-size: 10pt; font-family: arial,sans-serif; color: #0c0c0c;">Template to import ASQ:SE-2 questionnaire (English or Spanish) to either an existing or new Child Profile.</span></p>
+            </td>
+            <td style="width: 119.7pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; padding: 0in 5.4pt;" valign="top">
+            <p><span style="font-size: 10pt; font-family: arial,sans-serif; color: #0c0c0c;">Includes child, caregiver, and screening data.</span></p>
+            </td>
+            <td style="width: 119.7pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; padding: 0in 5.4pt;" valign="top">
+            <p><span style="font-size: 10pt; font-family: arial,sans-serif; color: #0c0c0c;">Use this template to import child, caregiver, and questionnaire data in one single file for ASQ:SE-2</span></p>
+            <p><span style="font-size: 10pt; font-family: arial,sans-serif; color: #0c0c0c;">&nbsp;</span></p>
+            <p><span style="font-size: 10pt; font-family: arial,sans-serif; color: #0c0c0c;">*Note: There are separate Data Templates for each age interval for ASQ:SE-2.</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</p>
+<p class="MsoNormal"><strong><span style="font-size: 12pt; line-height: 115%;">8.1.2
+Downloading Data Templates for Import<br />
+<br />
+</span></strong><span style="font-size: 12pt; line-height: 115%;">The first step in importing data into ASQ Online is to
+download the appropriate Data Template to use as a basis for importing. You may
+either use the Template to enter the data, or you may export data from another
+system (database, application, etc.) and format the output, so that it matches
+the Template. <o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span style="font-size: 12pt;">To download a Data
+Template:</span></p>
+<span style="font-size: 12pt;">
+<ol>
+    <li><span style="font-size: 12pt;">Select <em>Account</em> </span><span style="font-size: 12pt;">from the top navigation
+    menu.</span></li>
+    <br />
+    <li><span style="font-size: 12pt;">Select the
+    </span><em style="font-size: 12pt;">Import Data </em><span style="font-size: 12pt;">Quick Link.&nbsp; <br />
+    </span></li>
+    <img alt="" src="images/AcctAdminImport.JPG" />
+    <div><br />
+    <br />
+    </div>
+    <li><span style="font-size: 12pt;">Click on
+    the </span><em style="font-size: 12pt;">Download Data Templates </em><span style="font-size: 12pt;">tab.</span></li>
+    <li><span style="font-size: 12pt;">Click on
+    the name of the Data Template you would like to download.</span></li>
+    <div><img alt="" src="images/ImportDataTemplates.JPG" /><br />
+    </div>
+    <li><span style="font-size: 12pt;">A pop-up
+    window will appear prompting you to open or save the file.</span></li>
+    <li><span style="font-size: 12pt;">Click the </span><em style="font-size: 12pt;">Save </em><span style="font-size: 12pt;">button to save the Data
+    Template to your computer.</span></li>
+</ol>
+<ol style="margin-top: 0in; list-style-type: decimal;" start="1">
+</ol>
+<p class="MsoNormal" style="margin-bottom: 0.0001pt;"><em><span style="font-size: 12pt;">&nbsp;</span></em></p>
+<p class="MsoNormal" style="margin-bottom: 0.0001pt;"><em><span style="font-size: 12pt;">NOTE: The file extension of the Data Templates are
+comma separated values (CSV). When opening the file, you may need to select
+&ldquo;All Files&rdquo; for the file type, in order to locate the file. <o:p></o:p></span></em></p>
+<p class="MsoNormal" style="margin-bottom: 0.0001pt;"><em><span style="font-size: 12pt;">&nbsp;</span></em></p>
+<p class="MsoNormal"><strong><span style="font-size: 12pt; line-height: 115%;">8.1.3
+Importing New Child/Caregiver/Screening Data<br />
+<br />
+</span></strong><span style="font-size: 12pt; line-height: 115%;">Once the Data Template you wish to use for importing
+has been downloaded, the next step is to either manually enter the data needed,
+or export the necessary data from your own data management system. <o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span style="font-size: 12pt;">Each Data Template
+contains &ldquo;Required&rdquo; and &ldquo;Non-required&rdquo; data fields for import. Even if you plan
+on omitting non-required data fields from the template, the column header that
+includes the data field name must be included in your import file. If this
+column is not included, the file will not import correctly. <o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span style="font-size: 12pt;">&nbsp;</span></p>
+<p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span style="font-size: 12pt;">See <strong>Section 8.5</strong> for more information on
+data fields, data format requirements, and the required fields for each of the
+Data Templates. <o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span style="font-size: 12pt;">&nbsp;</span></p>
+<p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span style="font-size: 12pt;">To import your data
+file:</span></p>
+<span style="font-size: 12pt;">
+<ol>
+    <li><span style="font-size: 12pt;">Select </span><em style="font-size: 12pt;">Account </em><span style="font-size: 12pt;">from the top navigation
+    menu.  <br />
+    <img alt="" src="images/ImportScreen.JPG" style="border-width: 0px; border-style: solid;" /></span></li>
+    <li><span style="font-size: 12pt;"></span><span style="font-size: 12pt;">Select the
+    </span><em style="font-size: 12pt;">Import Data </em><span style="font-size: 12pt;">Quick Link. &nbsp;</span></li>
+    <li><span style="font-size: 12pt;">From the
+    &ldquo;Import type&rdquo; drop-down menu, select the Data Template you wish to use for
+    importing.<img alt="" src="images/ImportDataTemplates.JPG" /></span></li>
+    <li><span style="font-size: 12pt;">Select the date format that matches your file.</span></li>
+    <li><span style="font-size: 12pt;">Click the </span><em style="font-size: 12pt;">Browse </em><span style="font-size: 12pt;">button to select the file
+    you wish to import, from your computer. </span><em style="font-size: 12pt;">NOTE: The file must match the selected template in order to
+    successfully import the data. (Example: When using the Child and Caregiver
+    Profile Data Template, the file you select must include the Child and
+    Caregiver Profile information.)</em></li>
+    <li><span style="font-size: 12pt;">Once the
+    file has been selected, click the </span><em style="font-size: 12pt;">Import
+    </em><span style="font-size: 12pt;">button.&nbsp;<img alt="" src="images/ImportTestFile.JPG" /></span></li>
+    <li>The file will be listed under the Import Status tab. &nbsp;It will list the type of template. &nbsp;Underneath it should list the state of the file Pending review or errors, the name of the person who imported the file, time the import started and how many records. If there are errors then it will list them and the resolution methods. &nbsp;<img alt="" src="images/ImportPending.JPG" /></li>
+    <li>Once the file is processed a button will appear to Finalize the import or cancel. &nbsp;<img alt="" src="images/ImportFinalize.JPG" /></li>
+    <li><span style="font-size: 16px;">Select the action by choosing the button.<br />
+    </span><span style="font-size: 16px;"><img alt="" src="images/ImportFinalizing.JPG" usemap="#rade_img_map_1506537327560" style="border-width: 0px; border-style: solid;" /></span></li>
+    <br />
+    <li>If the file is processed successfully it will update the state to Ok.<img alt="" src="images/ImportOK.JPG" style="font-size: 12pt;" /></li>
+</ol>
+</span>
+<ol style="margin-top: 0in; list-style-type: decimal;" start="1">
+</ol>
+<p class="MsoNormalCxSpMiddle" style="margin-bottom: 0.0001pt;"><span style="font-size: 12pt;">&nbsp;</span></p>
+<span style="font-size: 12pt; line-height: 115%; font-family: tahoma;">To view recent import attempts into ASQ Online, click the <em>Recent Imports
+</em>tab, on the <strong>Import Data</strong> page.
+The most recent imports will be listed, including the name of the Import Data
+Template, the date of the import, who imported the data, status, the total number of
+records imported, and the total number of records updated.&nbsp;<br />
+</span><br />
+<p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span style="font-size: 12pt;">You can locate the
+newly imported child, caregiver, and/or screening data on the corresponding
+child&rsquo;s profile page. <o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span style="font-size: 12pt;">&nbsp;</span></p>
+<span style="font-size: 12pt; line-height: 115%; font-family: tahoma;">If the import was not successful, you will
+receive one or more error messages. The error message will detail why the
+import did not work. Correct the errors and try uploading the import file
+again. See <strong>Section 8.3 </strong>for some tips
+on how to troubleshoot common import errors.</span><br />
+<p><span class="subheading" style="font-family: arial; font-size: 16px; color: #cbc9ba;">See also</span></p>
+<div class="pagelist"><a href="8_2_custom_fields2.htm" title="">8.2 Custom Fields(Enterprise account only)</a><br><a href="8_3_troubleshooting_common_import_errors.htm" title="">8.3 Troubleshooting Common Import Errors</a><br><a href="8_4_updating_existing_data_using_import_data_templates.htm" title="">8.4 Updating Existing Data Using Import Data Templates</a><br><a href="8_5_quick_reference_guide.htm" title="">8.5 Quick Reference Guide</a><br></div>
+<map id="rade_img_map_1506537327560" name="rade_img_map_1506537327560">
+<area shape="RECT" coords="10,10,822,212" href="http://" /></map>
+</span></body></html>
